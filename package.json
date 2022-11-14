@@ -1,0 +1,28 @@
+{
+  "name": "todo-solidity",
+  "version": "1.0.0",
+  "description": "A Decentralized Todo application using solidity for smart contract, hardhat for testing and deployment purpose, Ethers js to communicate with the contract, Metasmask to sign the transaction, React js for the frontend and Alchemy as the blockchain node provider.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarMWarraich/Todo-Solidity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmarMWarraich/Todo-Solidity/issues"
+  },
+  "homepage": "https://github.com/OmarMWarraich/Todo-Solidity#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.0",
+    "dotenv": "^16.0.3"
+  }
+}
